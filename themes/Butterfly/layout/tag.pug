@@ -1,0 +1,14 @@
+extends includes/layout
+
+block content
+  if theme.tag_ui == 'index'
+    include includes/mixins/post-ui
+    #recent-posts.recent-posts
+      +postUI
+      include includes/pagination
+  else
+    include includes/mixins/article-sort
+    #tag
+      .article-sort-title= _p('page.tag') + ' - ' + page.tag
+      +articleSort(page.posts)
+      include includes/pagination

@@ -1,0 +1,30 @@
+- let { use } = theme.comments
+
+if use
+  - let forum,apiKey,userRepo
+  case use[0]
+    when 'Valine'
+      include valine
+    when 'Waline'
+      include waline
+    when 'Twikoo'
+      include twikoo-comment
+    when 'Disqus'
+      - forum = theme.disqus.shortname
+      - apiKey = theme.disqus.apikey
+      include disqus-comment
+    when 'Disqusjs'
+      - forum = theme.disqusjs.shortname
+      - apiKey = theme.disqusjs.apikey
+      include disqus-comment
+    when 'Gitalk'
+      - let { repo,owner } = theme.gitalk
+      - userRepo = owner + '/' + repo
+      include github-issues
+    when 'Utterances'
+      - userRepo = theme.utterances.repo
+      include github-issues
+    when 'Remark42'
+      include remark42
+    when 'Artalk'
+      include artalk
