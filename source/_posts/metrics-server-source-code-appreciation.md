@@ -1,7 +1,7 @@
 ---
 title: metrics-server源码赏析
-date: 2023/02/03
-updated: 2023/02/03
+date: 2023/02/20
+updated: 2023/02/20
 type:
 comments:
 description: 最近刚好在做HPA，就想着先把kubernetes使用metrics-server的源码先看看，毕竟这也是HPA能够实现的依据，metrics-server主要也是通过aggregate api向其他组件提供集群当中的pod和node的cpu跟内存监控指标的。
