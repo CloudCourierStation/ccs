@@ -83,9 +83,9 @@ katex:
 # Favicon（網站圖標）
 favicon: /img/favicon.png
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
-  img: /static/notes/head-portrait.png
+  img: /static/image/head-portrait.png
   effect: false
 
 # Disable all banner image

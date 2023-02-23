@@ -8,9 +8,9 @@ copy:
   noSupport: The browser does not support
 
 page:
-  articles: Articles
-  tag: Tag
-  category: Category
+  articles: 文章
+  tag: 标签
+  category: 分类
   archives: Archives
 
 card_post_count: comments
@@ -19,17 +19,17 @@ sticky: Sticky
 no_title: No title
 
 post:
-  created: Created
-  updated: Updated
-  wordcount: Word count
-  min2read: Reading time
+  created: 创建
+  updated: 更新
+  wordcount: 字数统计
+  min2read: 预计阅读需
   min2read_unit: min
-  page_pv: Post View
+  page_pv: 阅读数
   comments: Comments
   copyright:
-    author: Author
-    link: Link
-    copyright_notice: Copyright Notice
+    author: 作者
+    link: 链接
+    copyright_notice: 版权提醒
     copyright_content: 'All articles in this blog are licensed under <a href="%s">%s</a> unless stating additionally.'
   recommend: Related Articles
   edit: Edited on
@@ -47,22 +47,22 @@ search:
     hits_empty: "We didn't find any results for the search: ${query}"
 
 pagination:
-  prev: Previous Post
-  next: Next Post
+  prev: 上一篇
+  next: 下一篇
 
 comment: Comment
 
 aside:
-  articles: Articles
-  tags: Tags
-  categories: Categories
+  articles: 文章
+  tags: 标签
+  categories: 分类
   card_announcement: 公告
   card_categories: Categories
   card_tags: Tags
   card_archives: 归档
   card_recent_post: 最近爽文
   card_webinfo:
-    headline: Info
+    headline: 信息
     article_name: 文章
     runtime:
       name: Run time
@@ -81,7 +81,7 @@ aside:
     image: image
     link: link
     code: code
-  card_toc: Catalog
+  card_toc: 索引
 
 date_suffix:
   just: Just
@@ -105,8 +105,8 @@ rightside:
   chat: Chat
 
 copy_copyright:
-  author: Author
-  link: Link
+  author: 坐着
+  link: 链接
   source: Source
   info: Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
 

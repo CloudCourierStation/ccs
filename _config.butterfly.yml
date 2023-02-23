@@ -667,8 +667,8 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: GitHub首页
+      link: https://github.com/CloudCourierStation
   card_announcement:
     enable: true
     content: 生于云，长于云
